@@ -34,7 +34,7 @@ extern team_t team;
 
 
 /* The range of image dimensions that we will be testing */
-static int test_dim_rotate[] = {512, 1024, 2048,4096};
+static int test_dim_rotate[] = {32, 1024, 2048,4096};
 static int test_dim_smooth[] = {256, 512, 1024, 2048};
 
 
@@ -335,7 +335,7 @@ void test_smooth()
 
   int test_num;
   int i=0;
-  
+
   int naive_time_rusage=0;
   int naive_ave_time_rusage=0;
   unsigned long long naive_time_rdtsc = 0;

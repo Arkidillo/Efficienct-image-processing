@@ -158,7 +158,7 @@ int dim31 = dim*31;
 int dim32 = dim16 << 1;
 int y = dim*(dim-1);
 int x = 0;
-	for (i = 0; i < dim; i += 32){
+for (i = 0; i < dim; i += 32){
     //x = i*dim;
     z = y + i;
 
@@ -1369,8 +1369,6 @@ int x = 0;
 	*rusage_time = rusage_end_time - rusage_start_time;
 	*rdtsc_time = rdtsc_end_time - rdtsc_start_time;
 }
-
-
 
 
 
